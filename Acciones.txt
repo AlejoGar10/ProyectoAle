@@ -1,0 +1,10 @@
+Fotografia	Computadora Portatil	MacBook Pro	C:\Users\alejo\Desktop\Fotos Familia\natalia\20190913_120123.jpg	jueves abril 22 10:11:02 2021
+Reproducir Musica	SmartPhone	Samsung Galaxy S21	Escondidos.mp3	Samsung Galaxy Buds	jueves abril 22 10:11:19 2021
+Copiar Texto	Computadora Portatil	MateBook D15	Holaa Buenas Tardes Mama	Activo	jueves abril 22 10:11:41 2021
+Fotografia	Computadora Portatil	MacBook Pro	C:\Users\alejo\Desktop\Bodas de Oro\IMG_2246.JPG	viernes abril 23 10:09:22 2021
+Fotografia	Tablet	Galaxy Tab S10	C:\Users\alejo\Desktop\Bodas de Oro\Foto-3.jpeg	viernes abril 23 10:15:34 2021
+Fotografia	Computadora Portatil	MateBook D15	C:\Users\alejo\Desktop\Fotos Familia\natalia\20191005_113611.jpg	viernes abril 23 10:16:20 2021
+Reproducir Musica	Computadora Portatil	MateBook D15	Simplemente Gracias.mp3	Huawei FreeBuds 3I	viernes abril 23 10:49:58 2021
+Copiar Texto	Computadora Portatil	Lenovo Yoga	Hola muy Buenas, hoy a las 8:00 	Activo	viernes abril 23 10:54:23 2021
+Reproducir Musica	SmartPhone	Xiaomi  Mi11 Ultra	Mi Mayor Anhelo.mp3	Autoparlantes	sábado abril 24 10:14:51 2021
+Copiar Texto	Tablet	IPad Pro Plus	Buenas Dias, hay clases hoy?	Activo	sábado abril 24 10:19:34 2021

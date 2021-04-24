@@ -1,0 +1,5 @@
+Llamada Contestada	Iphone 12	50302432	Samsung Galaxy A72	50669514	apple@gmail.com.gt	sábado abril 24 12:01:01 2021
+Llamada Contestada	Samsung Galaxy S21	51852028	Huawei P50	23288807	samsung@gmail.com.gt	sábado abril 24 12:04:04 2021
+Llamada Contestada	Huawei P50	23288807	Samsung Galaxy S21	51852028	huawei@gmail.com.gt	sábado abril 24 10:44:52 2021
+Llamada Rechazada	Xiaomi  Mi11 Ultra	51208456	Iphone 12	50302432	xiaomi@gmail.com.gt	sábado abril 24 12:08:33 2021
+Llamada Rechazada	Samsung Galaxy S21	51852028	Samsung Galaxy A72	50669514	samsung@gmail.com.gt	sábado abril 24 12:08:54 2021

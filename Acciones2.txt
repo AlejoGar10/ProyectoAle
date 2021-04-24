@@ -1,0 +1,5 @@
+Compartir Documento	Tablet	Galaxy Tab S10	C:\Users\alejo\Desktop\OrdenamientoYBusqueda.pdf	Lenovo Ideapad	jueves abril 22 10:32:49 2021
+Recibir Documento	Computadora Portatil	Lenovo Ideapad	C:\Users\alejo\Desktop\OrdenamientoYBusqueda.pdf	Galaxy Tab S10	jueves abril 22 10:33:00 2021
+Compartir Documento	Computadora Portatil	MateBook D15	C:\Users\alejo\Desktop\MANUAL TECNICO.docx	Lenovo Ideapad	jueves abril 22 10:34:11 2021
+Compartir Documento	SmartPhone	Lenovo Yoga	C:\Users\alejo\OneDrive\Documentos\Enfoque Sistémico.docx	Huawei P50	viernes abril 23 11:07:35 2021
+Recibir Documento	SmartPhone	Huawei P50	C:\Users\alejo\OneDrive\Documentos\Enfoque Sistémico.docx	Lenovo Yoga	viernes abril 23 11:19:44 2021

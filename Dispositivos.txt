@@ -1,0 +1,15 @@
+Computadora Portatil	Lenovo Ideapad	ale.josegarcia@hotmail.com	Activo	Encendido	viernes abril 23 09:14:26 2021
+Computadora Portatil	Lenovo Yoga	lenovoibm@gmail.com.gt	Activo	Encendido	miércoles abril 21 10:19:15 2021
+Computadora Portatil	MacBook Pro	apple@gmail.com.gt	Activo	Encendido	miércoles abril 21 10:19:54 2021
+Computadora Portatil	MateBook D15	huawei@gmail.com.gt	Activo	Encendido	miércoles abril 21 10:20:51 2021
+Tablet	Galaxy Tab S7	samsung@gmail.com.gt	Activo	Encendido	viernes abril 23 09:17:03 2021
+Tablet	IPad Pro Plus	apple@gmail.com.gt	Activo	Encendido	miércoles abril 21 10:22:49 2021
+Tablet	Galaxy Tab S10	ale.josegarcia@hotmail.com	Activo	Encendido	miércoles abril 21 10:24:17 2021
+SmartWatch	Apple Watch SE	apple@gmail.com.gt	Activo	Encendido	miércoles abril 21 10:25:21 2021
+SmartWatch	Galaxy Watch Active3	samsung@gmail.com.gt	Activo	Encendido	miércoles abril 21 10:26:22 2021
+SmartWatch	Amazfit Bip Xiaomi. 	xiaomi@gmail.com.gt	Activo	Encendido	miércoles abril 21 10:28:01 2021
+SmartPhone	Samsung Galaxy A72	ale.josegarcia@hotmail.com	Activo	Encendido	50669514	miércoles abril 21 10:28:40 2021
+SmartPhone	Iphone 12	apple@gmail.com.gt	Activo	Encendido	50302432	miércoles abril 21 10:29:00 2021
+SmartPhone	Samsung Galaxy S21	samsung@gmail.com.gt	Activo	Encendido	51852028	miércoles abril 21 10:29:29 2021
+SmartPhone	Huawei P50	huawei@gmail.com.gt	Activo	Encendido	23288807	miércoles abril 21 10:29:53 2021
+SmartPhone	Xiaomi  Mi11 Ultra	xiaomi@gmail.com.gt	Activo	Encendido	51208456	miércoles abril 21 10:31:38 2021
