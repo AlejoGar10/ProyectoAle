@@ -10,3 +10,4 @@ Mensaje Enviado	Mensaje de Red Social	SmartPhone	Samsung Galaxy S21	Podemos Vern
 Mensaje Enviado	Mensaje Instantaneo	SmartPhone	Samsung Galaxy S21	Hola que estas haciendo	Tablet	Galaxy Tab S10	ale.josegarcia@hotmail.com	domingo abril 25 08:28:10 2021	WhatsApp
 Mensaje Enviado	Mensaje Instantaneo	SmartPhone	Xiaomi  Mi11 Ultra	Hola, disculpa cuando puedo verte	Computadora Portatil	Lenovo Yoga	lenovoibm@gmail.com.gt	domingo abril 25 08:36:34 2021	Telegram
 Notificacion	Correo Electronico	SmartPhone	Samsung Galaxy A72	Curriculum	Hola Buenas Tardes, aqui le adjunto mi Curriculum	Computadora Portatil	Lenovo Yoga	lenovoibm@gmail.com.gt	domingo abril 25 09:29:21 2021
+Mensaje Enviado	Mensaje Videoconferencia	SmartPhone	Iphone 12	Aqui te Adjunto el Link 	Computadora Portatil	MacBook Pro	apple@gmail.com.gt	domingo abril 25 09:58:41 2021	Google Meet

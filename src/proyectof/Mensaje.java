@@ -1315,8 +1315,8 @@ public static String Correo="";
                 if( jTextField15.getText().equals(""))
                 JOptionPane.showMessageDialog(null, "Ingrese Dispositivo!", "Algo está mal!", JOptionPane.ERROR_MESSAGE);
                 else{
-                    for (int r = 0; r < 100; r++) { //initializing row
-                        for (int c = 0; c < 3; c++) { //initializing column
+                    for (int r = 0; r < 100; r++) { 
+                        for (int c = 0; c < 3; c++) { 
                             jTable4.setValueAt("", r, c);
                         }
                     }

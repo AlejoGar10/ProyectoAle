@@ -8,8 +8,6 @@ import static proyectof.Accion.Dispo;
 import static proyectof.Accion.Tipo;
 
 
-
-
 public class DocRec extends javax.swing.JFrame {
 
   
@@ -287,9 +285,7 @@ public class DocRec extends javax.swing.JFrame {
            
     }//GEN-LAST:event_jTable1MouseClicked
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">

@@ -16,8 +16,8 @@ public class Masiva3 extends javax.swing.JFrame {
         this.setTitle("CARGA MASIVA");
         
         try {
-            for (int r = 0; r < 30; r++) { //initializing row
-                        for (int c = 0; c < 6; c++) { //initializing column
+            for (int r = 0; r < 30; r++) { 
+                        for (int c = 0; c < 6; c++) {
                             jTable1.setValueAt("", r, c);
                         }
                     }

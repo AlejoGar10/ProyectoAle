@@ -1,4 +1,4 @@
-Computadora Portatil	Lenovo Ideapad	ale.josegarcia@hotmail.com	Activo	Encendido	viernes abril 23 09:14:26 2021
+Computadora Portatil	Lenovo Ideapad	ale.josegarcia@hotmail.com	Activo	Encendido	domingo abril 25 09:59:37 2021
 Computadora Portatil	Lenovo Yoga	lenovoibm@gmail.com.gt	Activo	Encendido	miércoles abril 21 10:19:15 2021
 Computadora Portatil	MacBook Pro	apple@gmail.com.gt	Activo	Encendido	miércoles abril 21 10:19:54 2021
 Computadora Portatil	MateBook D15	huawei@gmail.com.gt	Activo	Encendido	miércoles abril 21 10:20:51 2021

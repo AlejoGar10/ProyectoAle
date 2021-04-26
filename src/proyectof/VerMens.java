@@ -22,8 +22,8 @@ public class VerMens extends javax.swing.JFrame {
         jTextField1.setText(accion.Dispo);
         
         try {
-            for (int r = 0; r < 30; r++) { //initializing row
-                        for (int c = 0; c < 3; c++) { //initializing column
+            for (int r = 0; r < 30; r++) { 
+                        for (int c = 0; c < 3; c++) { 
                             jTable1.setValueAt("", r, c);
                         }
                     }

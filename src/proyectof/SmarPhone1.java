@@ -363,8 +363,8 @@ public class SmarPhone1 extends javax.swing.JFrame {
             if( jTextField5.getText().equals(""))
             JOptionPane.showMessageDialog(null, "Ingrese Producto!", "Algo está mal!", JOptionPane.ERROR_MESSAGE);
             else{
-                for (int r = 0; r < 100; r++) { //initializing row
-                    for (int c = 0; c < 5; c++) { //initializing column
+                for (int r = 0; r < 100; r++) { 
+                    for (int c = 0; c < 5; c++) { 
                         jTable1.setValueAt("", r, c);
                     }
                 }

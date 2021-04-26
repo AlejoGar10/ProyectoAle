@@ -32,8 +32,8 @@ public class Llamada extends javax.swing.JFrame {
         jTextField4.setText(accion2.Corr);
         try {
                 
-                    for (int r = 0; r < 30; r++) { //initializing row
-                        for (int c = 0; c < 2; c++) { //initializing column
+                    for (int r = 0; r < 30; r++) { 
+                        for (int c = 0; c < 2; c++) { 
                             jTable1.setValueAt("", r, c);
                         }
                     }

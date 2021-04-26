@@ -8,9 +8,7 @@ import java.util.logging.Logger;
 
 public class Menu extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Menu
-     */
+    
     public Menu() {
         initComponents();
         this.setResizable(false);

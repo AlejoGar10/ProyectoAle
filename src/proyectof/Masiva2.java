@@ -17,8 +17,8 @@ public class Masiva2 extends javax.swing.JFrame {
         this.setTitle("CARGA MASIVA");
         
         try {
-            for (int r = 0; r < 30; r++) { //initializing row
-                        for (int c = 0; c < 4; c++) { //initializing column
+            for (int r = 0; r < 30; r++) { 
+                        for (int c = 0; c < 4; c++) { 
                             jTable1.setValueAt("", r, c);
                         }
                     }
@@ -66,8 +66,8 @@ found=true;
             }catch (IOException e) {}
         
         try {
-            for (int r = 0; r < 30; r++) { //initializing row
-                        for (int c = 0; c < 5; c++) { //initializing column
+            for (int r = 0; r < 30; r++) { 
+                        for (int c = 0; c < 5; c++) { 
                             jTable2.setValueAt("", r, c);
                         }
                     }

@@ -1,9 +1,6 @@
 package proyectof;
 
-/**
- *
- * @author alejo
- */
+
 public class ProyectoF {
 
     /**

@@ -13,9 +13,7 @@ import static proyectof.Usuario.Admin;
 
 public class Dispositivos extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Dispositivos
-     */
+    
     public Dispositivos() {
         initComponents();
         this.setResizable(false);

@@ -25,7 +25,6 @@ public class Audifono extends javax.swing.JFrame {
         jTextField1.setEnabled(false);
         jTextField2.setEnabled(false);
     }
-
     
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -602,9 +601,7 @@ String Select= (String) jComboBox1.getSelectedItem();
          jTextField2.setText(String.valueOf(jTable1.getValueAt(Seleccion,0)));
     }//GEN-LAST:event_jTable1MouseClicked
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
