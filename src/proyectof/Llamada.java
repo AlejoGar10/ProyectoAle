@@ -156,8 +156,11 @@ public class Llamada extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable1);
         if (jTable1.getColumnModel().getColumnCount() > 0) {
+            jTable1.getColumnModel().getColumn(0).setResizable(false);
             jTable1.getColumnModel().getColumn(0).setPreferredWidth(90);
+            jTable1.getColumnModel().getColumn(1).setResizable(false);
             jTable1.getColumnModel().getColumn(1).setPreferredWidth(35);
+            jTable1.getColumnModel().getColumn(2).setResizable(false);
             jTable1.getColumnModel().getColumn(2).setPreferredWidth(80);
         }
 
@@ -318,7 +321,6 @@ public class Llamada extends javax.swing.JFrame {
                     if (found) {
                         JOptionPane.showMessageDialog(null, "El Numero es el Mismo!\nSuggestion: Actualizar Datos?", "", JOptionPane.WARNING_MESSAGE);
                     } else {
-                        
                         SimpleDateFormat Fecha = new SimpleDateFormat("EEEE MMMM d hh:mm:ss yyyy");
                         fecha=(Fecha.format(new Date()));
                         
@@ -331,10 +333,24 @@ public class Llamada extends javax.swing.JFrame {
                             wrfile.println(itemline[j]);
                         }
 
+                       
+                        SimpleDateFormat Fechaz = new SimpleDateFormat("EEEE MMMM d hh:mm:ss yyyy");
+                        fecha=(Fecha.format(new Date()));
+                        
+                        itemline[x] = Mus + "\t" + Tipo + "\t" + corr + "\t" + nume + "\t" + Pro + "\t" + Correo +"\t"+ fecha;
+
+                        PrintWriter wrfiles = new PrintWriter(new FileWriter("Externas1.txt"));
+
+                        for (int j = 0; itemline[j] != null; j++) {
+
+                            wrfiles.println(itemline[j]);
+                        }
+
+                        wrfiles.close();
                         wrfile.close();
 
                         JOptionPane.showMessageDialog(null, "Llamando!", " Ok ", JOptionPane.INFORMATION_MESSAGE);
-
+                        
                     }
                 } else {
                     JOptionPane.showMessageDialog(null, "Inventario Lleno!", "Precaución", JOptionPane.WARNING_MESSAGE);

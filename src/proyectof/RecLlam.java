@@ -3,6 +3,8 @@ package proyectof;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import javax.swing.JOptionPane;
 import static proyectof.Accion.Dispo;
 import static proyectof.Accion.corr;
@@ -30,7 +32,7 @@ public class RecLlam extends javax.swing.JFrame {
                             jTable1.setValueAt("", r, c);
                         }
                     }
-                    BufferedReader rdfile = new BufferedReader(new FileReader("Externas.txt"));
+                    BufferedReader rdfile = new BufferedReader(new FileReader("Externas1.txt"));
 
                     String[] item = new String[30];
                     boolean same= false, found=false;
@@ -42,7 +44,6 @@ public class RecLlam extends javax.swing.JFrame {
 
                     rdfile.close();
 
-                    
                     for( int k=0; item[k] != null; k++){
                         same= false;
                         target="";
@@ -50,7 +51,7 @@ public class RecLlam extends javax.swing.JFrame {
                         target+= item[k].charAt(j);
                         String[] temps=item[k].split("\t");
                        
-                        if(Ence.equals(temps[0])&&(corr.equals(temps[5])))  {
+                        if(Ence.equals(target)&&(corr.equals(temps[5])))  {
                         if(Dispo.equals(temps [3])) {
                            same=true; 
                           }   
@@ -148,7 +149,10 @@ found=true;
         });
         jScrollPane1.setViewportView(jTable1);
         if (jTable1.getColumnModel().getColumnCount() > 0) {
+            jTable1.getColumnModel().getColumn(0).setResizable(false);
+            jTable1.getColumnModel().getColumn(1).setResizable(false);
             jTable1.getColumnModel().getColumn(1).setPreferredWidth(33);
+            jTable1.getColumnModel().getColumn(2).setResizable(false);
             jTable1.getColumnModel().getColumn(2).setPreferredWidth(90);
         }
 
@@ -177,7 +181,6 @@ found=true;
         jTextField4.setBorder(null);
 
         jTextField5.setEditable(false);
-        jTextField5.setForeground(new java.awt.Color(240, 240, 240));
         jTextField5.setBorder(null);
 
         jTextField6.setEditable(false);
@@ -191,7 +194,7 @@ found=true;
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jButton1)
                 .addGap(226, 226, 226)
-                .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(47, Short.MAX_VALUE)
@@ -249,53 +252,54 @@ found=true;
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable1MouseClicked
+        
         int Seleccion=jTable1.rowAtPoint(evt.getPoint());
+       
         try {
             if( jTextField3.getText().equals(""))
                 JOptionPane.showMessageDialog(null, "Ingrese Dispositivo!", "Algo está mal!", JOptionPane.ERROR_MESSAGE);
           else{ 
-            BufferedReader rdfile = new BufferedReader(new FileReader("Externas2.txt"));
+            BufferedReader rdfile = new BufferedReader(new FileReader("Externas.txt"));
 
             String[] item = new String[30];
             boolean  found=false;
+            boolean same=false;
+            String target="";
             String search="";
             String docum="";
-            String Num="";
-            String ence="Llamada Entrante";
+            String ence="Llamada Contestada";
             int x = 0;  int row=0;
-            while ((item[x] = rdfile.readLine()) != null){
-            
-                    String[] tempx=item[x].split("\t");
-                    Num=tempx[4];
-                    ence=tempx[0];
-                    docum=tempx[6];
-                    x++;
-            }
-            rdfile.close();
-            
-             
-             
-            
-            if (!(x >= 100)) {
-                
-                    for (int j = 0; item[j] != null; j++) {
-                        String[] temp = item[j].split("\t");
-
-                        if(Dispo.equals(temp[1])&&(Num.equals(temp[4])&&(docum.equals(temp[6])))){ 
-                            found = true;
-                        }
-                       
-                    }
+            int r=Row.getRow();
+            while ((item[x] = rdfile.readLine()) != null) {
+                     x++;
              }
-            if(found){
+            rdfile.close();
+            jTextField5.setText(String.valueOf(jTable1.getValueAt(Seleccion,2)));
+            search=jTextField5.getText();
+            
+                 for( int k=0; item[k] != null; k++){
+                        same= false;
+                        target="";
+                        for( int j=0; j < Hora.length(); j++)
+                        target+= item[0].charAt(j);
+                        String[] temps=item[k].split("\t");
+                    
+                        if(search.equals(target)&&(Dispo.equals(temps[2])))  {
+                           same=true; 
+                          
+                        }
+                  }
+           
+             
+            if(same){
                 JOptionPane.showMessageDialog(null, "Llamada ya fue Recibida", "ERROR", JOptionPane.ERROR_MESSAGE);
             }else{
                 Dispoo=(String.valueOf(jTable1.getValueAt(Seleccion,0)));
                 Tell=(String.valueOf(jTable1.getValueAt(Seleccion,1)));
                 Hora=(String.valueOf(jTable1.getValueAt(Seleccion,2)));
-                Confirmar1 a= new Confirmar1();
-                a.setVisible(true);
-                this.dispose();
+               Confirmar1 a= new Confirmar1();
+               a.setVisible(true);
+               this.dispose();
             }
         }
         }catch (IOException e) {}

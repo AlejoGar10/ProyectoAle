@@ -146,9 +146,13 @@ public class DocRec extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable1);
         if (jTable1.getColumnModel().getColumnCount() > 0) {
+            jTable1.getColumnModel().getColumn(0).setResizable(false);
             jTable1.getColumnModel().getColumn(0).setPreferredWidth(100);
+            jTable1.getColumnModel().getColumn(1).setResizable(false);
             jTable1.getColumnModel().getColumn(1).setPreferredWidth(90);
+            jTable1.getColumnModel().getColumn(2).setResizable(false);
             jTable1.getColumnModel().getColumn(2).setPreferredWidth(280);
+            jTable1.getColumnModel().getColumn(3).setResizable(false);
             jTable1.getColumnModel().getColumn(3).setPreferredWidth(130);
         }
 
@@ -261,7 +265,7 @@ public class DocRec extends javax.swing.JFrame {
                     for (int j = 0; item[j] != null; j++) {
                         String[] temp = item[j].split("\t");
 
-                        if (ence.equals(temp[0])&&(Ence.equals(temp[3]))) {
+                        if (ence.equals(temp[0])&&(Dispo.equals(temp[2])&&(Ence.equals(temp[3])))) {
                             found = true;
                         }
                     }

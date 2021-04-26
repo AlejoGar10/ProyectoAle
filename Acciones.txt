@@ -8,3 +8,4 @@ Reproducir Musica	Computadora Portatil	MateBook D15	Simplemente Gracias.mp3	Huaw
 Copiar Texto	Computadora Portatil	Lenovo Yoga	Hola muy Buenas, hoy a las 8:00 	Activo	viernes abril 23 10:54:23 2021
 Reproducir Musica	SmartPhone	Xiaomi  Mi11 Ultra	Mi Mayor Anhelo.mp3	Autoparlantes	sábado abril 24 10:14:51 2021
 Copiar Texto	Tablet	IPad Pro Plus	Buenas Dias, hay clases hoy?	Activo	sábado abril 24 10:19:34 2021
+Copiar Texto	Computadora Portatil	Lenovo Ideapad	Hola buenas tardes solo queria preguntar que tal habias seguido 	Activo	sábado abril 24 10:47:35 2021

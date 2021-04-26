@@ -25,6 +25,7 @@ public class Mensaje extends javax.swing.JFrame {
         jComboBox1.addItem("SmartWatch");
         jComboBox1.addItem("SmartPhone");
         jTextArea1.setEnabled(false);
+        jTextArea1.setLineWrap(true);
         jButton1.setEnabled(false);
         jComboBox2.addItem("");
         jComboBox2.addItem("Computadora Portatil");
@@ -38,6 +39,7 @@ public class Mensaje extends javax.swing.JFrame {
         jComboBox6.addItem("Twitter");
         jComboBox6.addItem("Tinder");
         jTextArea2.setEnabled(false);
+        jTextArea2.setLineWrap(true);
         jButton3.setEnabled(false);
         jComboBox3.addItem("");
         jComboBox3.addItem("Computadora Portatil");
@@ -50,6 +52,7 @@ public class Mensaje extends javax.swing.JFrame {
         jComboBox7.addItem("Telegram");
         jComboBox7.addItem("Skype");
         jTextArea3.setEnabled(false);
+        jTextArea3.setLineWrap(true);
         jButton5.setEnabled(false);
         jComboBox4.addItem("");
         jComboBox4.addItem("Computadora Portatil");
@@ -62,6 +65,7 @@ public class Mensaje extends javax.swing.JFrame {
         jComboBox8.addItem("Uberconference");
         jComboBox8.addItem("Hangouts");
         jTextArea4.setEnabled(false);
+        jTextArea4.setLineWrap(true);
         jButton7.setEnabled(false);
         AccionE accion1=new AccionE();
         jTextField13.setText(accion1.Dispo);
@@ -298,8 +302,11 @@ public static String Correo="";
         });
         jScrollPane2.setViewportView(jTable1);
         if (jTable1.getColumnModel().getColumnCount() > 0) {
+            jTable1.getColumnModel().getColumn(0).setResizable(false);
             jTable1.getColumnModel().getColumn(0).setPreferredWidth(90);
+            jTable1.getColumnModel().getColumn(1).setResizable(false);
             jTable1.getColumnModel().getColumn(1).setPreferredWidth(160);
+            jTable1.getColumnModel().getColumn(2).setResizable(false);
             jTable1.getColumnModel().getColumn(2).setPreferredWidth(30);
         }
 
@@ -526,8 +533,11 @@ public static String Correo="";
         });
         jScrollPane4.setViewportView(jTable2);
         if (jTable2.getColumnModel().getColumnCount() > 0) {
+            jTable2.getColumnModel().getColumn(0).setResizable(false);
             jTable2.getColumnModel().getColumn(0).setPreferredWidth(90);
+            jTable2.getColumnModel().getColumn(1).setResizable(false);
             jTable2.getColumnModel().getColumn(1).setPreferredWidth(160);
+            jTable2.getColumnModel().getColumn(2).setResizable(false);
             jTable2.getColumnModel().getColumn(2).setPreferredWidth(30);
         }
 
@@ -796,8 +806,11 @@ public static String Correo="";
         });
         jScrollPane6.setViewportView(jTable3);
         if (jTable3.getColumnModel().getColumnCount() > 0) {
+            jTable3.getColumnModel().getColumn(0).setResizable(false);
             jTable3.getColumnModel().getColumn(0).setPreferredWidth(90);
+            jTable3.getColumnModel().getColumn(1).setResizable(false);
             jTable3.getColumnModel().getColumn(1).setPreferredWidth(160);
+            jTable3.getColumnModel().getColumn(2).setResizable(false);
             jTable3.getColumnModel().getColumn(2).setPreferredWidth(30);
         }
 
@@ -1073,8 +1086,11 @@ public static String Correo="";
         });
         jScrollPane8.setViewportView(jTable4);
         if (jTable4.getColumnModel().getColumnCount() > 0) {
+            jTable4.getColumnModel().getColumn(0).setResizable(false);
             jTable4.getColumnModel().getColumn(0).setPreferredWidth(90);
+            jTable4.getColumnModel().getColumn(1).setResizable(false);
             jTable4.getColumnModel().getColumn(1).setPreferredWidth(160);
+            jTable4.getColumnModel().getColumn(2).setResizable(false);
             jTable4.getColumnModel().getColumn(2).setPreferredWidth(30);
         }
 

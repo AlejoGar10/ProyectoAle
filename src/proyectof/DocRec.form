@@ -96,22 +96,22 @@
             </Property>
             <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
               <TableColumnModel selectionModel="0">
-                <Column maxWidth="-1" minWidth="-1" prefWidth="100" resizable="true">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="100" resizable="false">
                   <Title/>
                   <Editor/>
                   <Renderer/>
                 </Column>
-                <Column maxWidth="-1" minWidth="-1" prefWidth="90" resizable="true">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="90" resizable="false">
                   <Title/>
                   <Editor/>
                   <Renderer/>
                 </Column>
-                <Column maxWidth="-1" minWidth="-1" prefWidth="280" resizable="true">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="280" resizable="false">
                   <Title/>
                   <Editor/>
                   <Renderer/>
                 </Column>
-                <Column maxWidth="-1" minWidth="-1" prefWidth="130" resizable="true">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="130" resizable="false">
                   <Title/>
                   <Editor/>
                   <Renderer/>

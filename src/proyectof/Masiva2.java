@@ -345,9 +345,13 @@ found=true;
         });
         jScrollPane1.setViewportView(jTable1);
         if (jTable1.getColumnModel().getColumnCount() > 0) {
+            jTable1.getColumnModel().getColumn(0).setResizable(false);
             jTable1.getColumnModel().getColumn(0).setPreferredWidth(70);
+            jTable1.getColumnModel().getColumn(1).setResizable(false);
             jTable1.getColumnModel().getColumn(1).setPreferredWidth(85);
+            jTable1.getColumnModel().getColumn(2).setResizable(false);
             jTable1.getColumnModel().getColumn(2).setPreferredWidth(330);
+            jTable1.getColumnModel().getColumn(3).setResizable(false);
             jTable1.getColumnModel().getColumn(3).setPreferredWidth(135);
         }
 
@@ -426,10 +430,15 @@ found=true;
         });
         jScrollPane2.setViewportView(jTable2);
         if (jTable2.getColumnModel().getColumnCount() > 0) {
+            jTable2.getColumnModel().getColumn(0).setResizable(false);
             jTable2.getColumnModel().getColumn(0).setPreferredWidth(80);
+            jTable2.getColumnModel().getColumn(1).setResizable(false);
             jTable2.getColumnModel().getColumn(1).setPreferredWidth(100);
+            jTable2.getColumnModel().getColumn(2).setResizable(false);
             jTable2.getColumnModel().getColumn(2).setPreferredWidth(80);
+            jTable2.getColumnModel().getColumn(3).setResizable(false);
             jTable2.getColumnModel().getColumn(3).setPreferredWidth(80);
+            jTable2.getColumnModel().getColumn(4).setResizable(false);
             jTable2.getColumnModel().getColumn(4).setPreferredWidth(120);
         }
 
@@ -508,8 +517,10 @@ found=true;
         });
         jScrollPane3.setViewportView(jTable3);
         if (jTable3.getColumnModel().getColumnCount() > 0) {
+            jTable3.getColumnModel().getColumn(0).setResizable(false);
             jTable3.getColumnModel().getColumn(0).setPreferredWidth(80);
             jTable3.getColumnModel().getColumn(1).setPreferredWidth(90);
+            jTable3.getColumnModel().getColumn(2).setResizable(false);
             jTable3.getColumnModel().getColumn(2).setPreferredWidth(345);
             jTable3.getColumnModel().getColumn(3).setPreferredWidth(140);
         }
@@ -589,10 +600,15 @@ found=true;
         });
         jScrollPane4.setViewportView(jTable4);
         if (jTable4.getColumnModel().getColumnCount() > 0) {
+            jTable4.getColumnModel().getColumn(0).setResizable(false);
             jTable4.getColumnModel().getColumn(0).setPreferredWidth(75);
+            jTable4.getColumnModel().getColumn(1).setResizable(false);
             jTable4.getColumnModel().getColumn(1).setPreferredWidth(70);
-            jTable4.getColumnModel().getColumn(2).setPreferredWidth(255);
+            jTable4.getColumnModel().getColumn(2).setResizable(false);
+            jTable4.getColumnModel().getColumn(2).setPreferredWidth(270);
+            jTable4.getColumnModel().getColumn(3).setResizable(false);
             jTable4.getColumnModel().getColumn(3).setPreferredWidth(70);
+            jTable4.getColumnModel().getColumn(4).setResizable(false);
             jTable4.getColumnModel().getColumn(4).setPreferredWidth(125);
         }
 
@@ -671,10 +687,15 @@ found=true;
         });
         jScrollPane5.setViewportView(jTable5);
         if (jTable5.getColumnModel().getColumnCount() > 0) {
+            jTable5.getColumnModel().getColumn(0).setResizable(false);
             jTable5.getColumnModel().getColumn(0).setPreferredWidth(75);
+            jTable5.getColumnModel().getColumn(1).setResizable(false);
             jTable5.getColumnModel().getColumn(1).setPreferredWidth(70);
+            jTable5.getColumnModel().getColumn(2).setResizable(false);
             jTable5.getColumnModel().getColumn(2).setPreferredWidth(270);
+            jTable5.getColumnModel().getColumn(3).setResizable(false);
             jTable5.getColumnModel().getColumn(3).setPreferredWidth(70);
+            jTable5.getColumnModel().getColumn(4).setResizable(false);
             jTable5.getColumnModel().getColumn(4).setPreferredWidth(125);
         }
 

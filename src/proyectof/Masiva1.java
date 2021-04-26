@@ -443,11 +443,17 @@ found=true;
         });
         jScrollPane5.setViewportView(jTable2);
         if (jTable2.getColumnModel().getColumnCount() > 0) {
+            jTable2.getColumnModel().getColumn(0).setResizable(false);
             jTable2.getColumnModel().getColumn(0).setPreferredWidth(50);
+            jTable2.getColumnModel().getColumn(1).setResizable(false);
             jTable2.getColumnModel().getColumn(1).setPreferredWidth(90);
+            jTable2.getColumnModel().getColumn(2).setResizable(false);
             jTable2.getColumnModel().getColumn(2).setPreferredWidth(140);
+            jTable2.getColumnModel().getColumn(3).setResizable(false);
             jTable2.getColumnModel().getColumn(3).setPreferredWidth(20);
+            jTable2.getColumnModel().getColumn(4).setResizable(false);
             jTable2.getColumnModel().getColumn(4).setPreferredWidth(25);
+            jTable2.getColumnModel().getColumn(5).setResizable(false);
             jTable2.getColumnModel().getColumn(5).setPreferredWidth(160);
         }
 
@@ -526,10 +532,14 @@ found=true;
         });
         jScrollPane2.setViewportView(jTable3);
         if (jTable3.getColumnModel().getColumnCount() > 0) {
+            jTable3.getColumnModel().getColumn(0).setResizable(false);
             jTable3.getColumnModel().getColumn(0).setPreferredWidth(50);
+            jTable3.getColumnModel().getColumn(1).setResizable(false);
             jTable3.getColumnModel().getColumn(1).setPreferredWidth(90);
             jTable3.getColumnModel().getColumn(2).setPreferredWidth(140);
+            jTable3.getColumnModel().getColumn(3).setResizable(false);
             jTable3.getColumnModel().getColumn(3).setPreferredWidth(20);
+            jTable3.getColumnModel().getColumn(4).setResizable(false);
             jTable3.getColumnModel().getColumn(4).setPreferredWidth(25);
             jTable3.getColumnModel().getColumn(5).setPreferredWidth(150);
         }
@@ -609,12 +619,18 @@ found=true;
         });
         jScrollPane3.setViewportView(jTable4);
         if (jTable4.getColumnModel().getColumnCount() > 0) {
+            jTable4.getColumnModel().getColumn(0).setResizable(false);
             jTable4.getColumnModel().getColumn(0).setPreferredWidth(50);
+            jTable4.getColumnModel().getColumn(1).setResizable(false);
             jTable4.getColumnModel().getColumn(1).setPreferredWidth(95);
+            jTable4.getColumnModel().getColumn(2).setResizable(false);
             jTable4.getColumnModel().getColumn(2).setPreferredWidth(30);
+            jTable4.getColumnModel().getColumn(3).setResizable(false);
             jTable4.getColumnModel().getColumn(3).setPreferredWidth(140);
             jTable4.getColumnModel().getColumn(4).setPreferredWidth(20);
+            jTable4.getColumnModel().getColumn(5).setResizable(false);
             jTable4.getColumnModel().getColumn(5).setPreferredWidth(30);
+            jTable4.getColumnModel().getColumn(6).setResizable(false);
             jTable4.getColumnModel().getColumn(6).setPreferredWidth(150);
         }
 
@@ -684,7 +700,7 @@ found=true;
             }
         ) {
             boolean[] canEdit = new boolean [] {
-                false, true, false, true, false
+                false, false, false, false, false
             };
 
             public boolean isCellEditable(int rowIndex, int columnIndex) {
@@ -693,10 +709,15 @@ found=true;
         });
         jScrollPane4.setViewportView(jTable5);
         if (jTable5.getColumnModel().getColumnCount() > 0) {
+            jTable5.getColumnModel().getColumn(0).setResizable(false);
             jTable5.getColumnModel().getColumn(0).setPreferredWidth(50);
+            jTable5.getColumnModel().getColumn(1).setResizable(false);
             jTable5.getColumnModel().getColumn(1).setPreferredWidth(90);
+            jTable5.getColumnModel().getColumn(2).setResizable(false);
             jTable5.getColumnModel().getColumn(2).setPreferredWidth(110);
+            jTable5.getColumnModel().getColumn(3).setResizable(false);
             jTable5.getColumnModel().getColumn(3).setPreferredWidth(30);
+            jTable5.getColumnModel().getColumn(4).setResizable(false);
             jTable5.getColumnModel().getColumn(4).setPreferredWidth(150);
         }
 

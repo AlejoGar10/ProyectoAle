@@ -1,17 +1,12 @@
-Llamada Saliente	Samsung Galaxy A72	50669514	Iphone 12	50302432	apple@gmail.com.gt	viernes abril 23 11:59:59 2021
-Llamada Saliente	Huawei P50	23288807	Samsung Galaxy S21	51852028	samsung@gmail.com.gt	sábado abril 24 12:03:48 2021
-Mensaje de Texto	SmartPhone	Huawei P50	Hola Buenas Noches	SmartPhone	Iphone 12	apple@gmail.com.gt	sábado abril 24 12:13:41 2021
-Mensaje Enviado	Mensaje de Red Social	SmartPhone	Samsung Galaxy A72	Holaa Cuando Podremos Vernos	SmartPhone	Iphone 12	apple@gmail.com.gt	sábado abril 24 12:14:17 2021	Facebook
-Mensaje Enviado	Mensaje Instantaneo	SmartPhone	Xiaomi  Mi11 Ultra	Hola Que tal estas?	SmartPhone	Iphone 12	apple@gmail.com.gt	sábado abril 24 12:14:49 2021	WhatsApp
-Notificacion	Correo Electronico	SmartPhone	Samsung Galaxy A72	Tarea	Inge Aqui le Adjunto la Tarea 	Computadora Portatil	Lenovo Ideapad	ale.josegarcia@hotmail.com	sábado abril 24 12:22:03 2021
-Notificacion	Correo Electronico	SmartPhone	Samsung Galaxy S21	Plaza Programador	Le Adjunto mi Curriculum	Computadora Portatil	Lenovo Ideapad	ale.josegarcia@hotmail.com	sábado abril 24 12:23:13 2021
-Llamada Saliente	Samsung Galaxy S21	51852028	Huawei P50	23288807	huawei@gmail.com.gt	sábado abril 24 10:34:22 2021
-Llamada Saliente	Samsung Galaxy A72	50669514	Xiaomi  Mi11 Ultra	51208456	xiaomi@gmail.com.gt	sábado abril 24 11:05:17 2021
-Mensaje de Texto	SmartPhone	Samsung Galaxy A72	Disculpa Para cuando en la Tarea?	SmartPhone	Huawei P50	huawei@gmail.com.gt	sábado abril 24 11:27:21 2021
-Mensaje Enviado	Mensaje de Red Social	SmartPhone	Samsung Galaxy S21	Hola Podemos Salir Hoy	Tablet	IPad Pro Plus	apple@gmail.com.gt	sábado abril 24 11:36:47 2021	Instagram
-Mensaje Enviado	Mensaje Instantaneo	SmartPhone	Huawei P50	Hola ya te envie todos los Archivos	Computadora Portatil	Lenovo Yoga	lenovoibm@gmail.com.gt	sábado abril 24 11:43:00 2021	WhatsApp
-Mensaje Enviado	Mensaje Videoconferencia	SmartPhone	Iphone 12	Aqui te Adjunto el http://meet.google.com/spp-crkq-uvg 	Computadora Portatil	MacBook Pro	apple@gmail.com.gt	sábado abril 24 11:50:31 2021	Google Meet
-Mensaje Enviado	Mensaje Videoconferencia	SmartPhone	Huawei P50	Aqui esta el Link http://meet.google.com/spp-crkq-uvg	Computadora Portatil	MacBook Pro	apple@gmail.com.gt	sábado abril 24 11:51:18 2021	Google Meet
-Notificacion	Correo Electronico	SmartPhone	Samsung Galaxy S21	Curriculum	Hola Buenas Tardes, Aqui esta mi Curriculum	Tablet	Galaxy Tab S10	ale.josegarcia@hotmail.com	sábado abril 24 11:58:17 2021
-Llamada Saliente	Iphone 12	50302432	Xiaomi  Mi11 Ultra	51208456	xiaomi@gmail.com.gt	sábado abril 24 12:07:54 2021
-Llamada Saliente	Samsung Galaxy A72	50669514	Samsung Galaxy S21	51852028	samsung@gmail.com.gt	sábado abril 24 12:08:08 2021
+Llamada Saliente	Samsung Galaxy A72	50669514	Huawei P50	23288807	huawei@gmail.com.gt	domingo abril 25 08:25:49 2021
+Llamada Saliente	Samsung Galaxy A72	50669514	Samsung Galaxy S21	51852028	samsung@gmail.com.gt	domingo abril 25 08:25:52 2021
+Llamada Saliente	Iphone 12	50302432	Xiaomi  Mi11 Ultra	51208456	xiaomi@gmail.com.gt	domingo abril 25 08:26:00 2021
+Llamada Saliente	Iphone 12	50302432	Samsung Galaxy S21	51852028	samsung@gmail.com.gt	domingo abril 25 08:26:04 2021
+Llamada Saliente	Samsung Galaxy S21	51852028	Iphone 12	50302432	apple@gmail.com.gt	domingo abril 25 08:26:16 2021
+Llamada Saliente	Xiaomi  Mi11 Ultra	51208456	Samsung Galaxy A72	50669514	ale.josegarcia@hotmail.com	domingo abril 25 08:26:29 2021
+Mensaje de Texto	SmartPhone	Samsung Galaxy A72	Hola muy Buenas, todo bien?	SmartPhone	Samsung Galaxy A72	ale.josegarcia@hotmail.com	domingo abril 25 08:27:04 2021
+Mensaje de Texto	SmartPhone	Samsung Galaxy A72	Holi como haz estado?	SmartPhone	Iphone 12	apple@gmail.com.gt	domingo abril 25 08:27:25 2021
+Mensaje Enviado	Mensaje de Red Social	SmartPhone	Samsung Galaxy S21	Podemos Vernos mas Tarde	Computadora Portatil	MacBook Pro	apple@gmail.com.gt	domingo abril 25 08:27:52 2021	Instagram
+Mensaje Enviado	Mensaje Instantaneo	SmartPhone	Samsung Galaxy S21	Hola que estas haciendo	Tablet	Galaxy Tab S10	ale.josegarcia@hotmail.com	domingo abril 25 08:28:10 2021	WhatsApp
+Mensaje Enviado	Mensaje Instantaneo	SmartPhone	Xiaomi  Mi11 Ultra	Hola, disculpa cuando puedo verte	Computadora Portatil	Lenovo Yoga	lenovoibm@gmail.com.gt	domingo abril 25 08:36:34 2021	Telegram
+Notificacion	Correo Electronico	SmartPhone	Samsung Galaxy A72	Curriculum	Hola Buenas Tardes, aqui le adjunto mi Curriculum	Computadora Portatil	Lenovo Yoga	lenovoibm@gmail.com.gt	domingo abril 25 09:29:21 2021

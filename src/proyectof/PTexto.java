@@ -14,6 +14,7 @@ public class PTexto extends javax.swing.JFrame {
         this.setResizable(false);
         this.setLocationRelativeTo(null);
         this.setTitle("PEGAR TEXTO");
+        jTextArea1.setLineWrap(true);
        
         Accion accion1=new Accion();
         jTextField2.setText(accion1.Tipo);
@@ -49,6 +50,7 @@ public class PTexto extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel2.setText("Texto:");
 
+        jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);

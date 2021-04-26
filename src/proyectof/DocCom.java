@@ -150,7 +150,9 @@ public class DocCom extends javax.swing.JFrame {
         });
         jScrollPane2.setViewportView(jTable2);
         if (jTable2.getColumnModel().getColumnCount() > 0) {
+            jTable2.getColumnModel().getColumn(0).setResizable(false);
             jTable2.getColumnModel().getColumn(0).setPreferredWidth(90);
+            jTable2.getColumnModel().getColumn(1).setResizable(false);
             jTable2.getColumnModel().getColumn(1).setPreferredWidth(160);
             jTable2.getColumnModel().getColumn(2).setPreferredWidth(30);
             jTable2.getColumnModel().getColumn(3).setPreferredWidth(33);

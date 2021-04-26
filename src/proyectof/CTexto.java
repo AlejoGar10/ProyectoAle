@@ -28,6 +28,7 @@ public class CTexto extends javax.swing.JFrame {
         this.setResizable(false);
         this.setLocationRelativeTo(null);
         this.setTitle("COPIAR TEXTO");
+        jTextArea1.setLineWrap(true);
        
         Accion accion1=new Accion();
         jTextField3.setText(accion1.Tipo);

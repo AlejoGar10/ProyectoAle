@@ -1,0 +1,6 @@
+Llamada Saliente	Samsung Galaxy A72	50669514	Huawei P50	23288807	huawei@gmail.com.gt	domingo abril 25 08:25:49 2021
+Llamada Saliente	Samsung Galaxy A72	50669514	Samsung Galaxy S21	51852028	samsung@gmail.com.gt	domingo abril 25 08:25:52 2021
+Llamada Saliente	Iphone 12	50302432	Xiaomi  Mi11 Ultra	51208456	xiaomi@gmail.com.gt	domingo abril 25 08:26:00 2021
+Llamada Contestada	Samsung Galaxy S21	51852028	Iphone 12	50302432	samsung@gmail.com.gt	domingo abril 25 08:31:32 2021
+Llamada Saliente	Samsung Galaxy S21	51852028	Iphone 12	50302432	apple@gmail.com.gt	domingo abril 25 08:26:16 2021
+Llamada Rechazada	Samsung Galaxy A72	50669514	Xiaomi  Mi11 Ultra	51208456	ale.josegarcia@hotmail.com	domingo abril 25 08:37:02 2021

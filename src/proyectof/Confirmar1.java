@@ -205,77 +205,87 @@ public static String Fechas="";
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        try {
-            if (jTextField1.getText().equals("")) {
+        try{
+            if( jTextField1.getText().equals(""))
                 JOptionPane.showMessageDialog(null, "Ingrese Numero!", "Error!", JOptionPane.ERROR_MESSAGE);
-            } else {
-                BufferedReader rdfile = new BufferedReader(new FileReader("Externas2.txt"));
+           
+            else{
+                BufferedReader rdfile= new BufferedReader( new FileReader("Externas1.txt"));
 
-                String[] itemline = new String[50];
-                String Pro= "";
-                String Mus="Llamada Contestada";
-                String Si = null ;
-                String Sis = null;
-                String Tipo="";
+                String[] itemline= new String[50];
+                String temp[];
+                
+                String search= "", Edit="", Pro="", Corr="", Correo="", Contra="", Confi="";
+                search= "";
+                String Tipo="Llamada Contestada";
                 String fecha="";
-                boolean found = false;
-
-                int x = 0;
-                while ((itemline[x] = rdfile.readLine()) != null) {
-                    
-                    x++;
-                }
-                rdfile.close();
-
-                if (!(x >= 100)) {
-                    Pro = jTextField1.getText();
-
-                    for (int j = 0; itemline[j] != null; j++) {
-                        String[] temp = itemline[j].split("\t");
-
-                        if(Mus.equals(temp[0])&&(Pro.equals(temp[4]))) 
-                            found = true;
-                        
-                        
-                    }
-
-                    if (found) {
-                        JOptionPane.showMessageDialog(null, "El Numero es el Mismo!\nSuggestion: Actualizar Datos?", "", JOptionPane.WARNING_MESSAGE);
-                    } else {
-                        
-                        SimpleDateFormat Fecha = new SimpleDateFormat("EEEE MMMM d hh:mm:ss yyyy");
+                int x=0;  
+                boolean found= false;
+                search=jTextField6.getText();
+                
+               SimpleDateFormat Fecha = new SimpleDateFormat("EEEE MMMM d hh:mm:ss yyyy");
                         fecha=(Fecha.format(new Date()));
                         Fechas=fecha;
-                        itemline[x] = Mus + "\t" + Dispo + "\t" + Numero + "\t" + Dispoo + "\t" + Tell + "\t" + corr +"\t"+ Fechas;
+                if( (!(Dispo.equals(""))) || (!(Numero.equals(""))) || (!(Dispoo.equals("")))|| (!(Tell.equals(""))) || (!(corr.equals("")))){
+                    while(( itemline[x]= rdfile.readLine()) != null){
+                        temp= itemline[x].split("\t");
+                        jTextField6.setText(search);
+                        if( search.equals( temp[6])){
+                            if( Dispo.equals(""))
+                                Dispo= temp[1];
+                            
+                            if(Numero.equals(""))
+                               Numero=temp[2];
+                            
+                            if( Dispoo.equals(""))
+                                Dispoo= temp[3];
 
-                        PrintWriter wrfile = new PrintWriter(new FileWriter("Externas2.txt"));
-
-                        for (int j = 0; itemline[j] != null; j++) {
-
-                            wrfile.println(itemline[j]);
+                            if( Tell.equals(""))
+                                Tell= temp[4];
+                            
+                            if( corr.equals(""))
+                                corr= temp[4];
+                            
+                         
+                            itemline[x]= Tipo+"\t"+Dispo+"\t"+ Numero+"\t"+Dispoo+"\t"+Tell+"\t"+corr+"\t"+Fechas;
+                            found= true;
                         }
+                        x++;
+
+
+                    }
+                    rdfile.close();
+                    
+                    if( found ){
+                        PrintWriter wrfile= new PrintWriter( new FileWriter("Externas1.txt"));
+
+                        for( int j=0; itemline[j] != null; j++)
+                            wrfile.println( itemline[j]);
 
                         wrfile.close();
 
-                        JOptionPane.showMessageDialog(null, "Contestada!", " Ok ", JOptionPane.INFORMATION_MESSAGE);
-
-                    }
-                } else {
-                    JOptionPane.showMessageDialog(null, "Inventario Lleno!", "Precaución", JOptionPane.WARNING_MESSAGE);
-                }
-            }
-
-            jTextField1.setText("");
-            Acciones a= new Acciones ();
-            a.setVisible(true);
-            this.dispose();
-            
-        } catch (IOException e) {
-        }catch (NumberFormatException e) {
-            JOptionPane.showMessageDialog(null, "Algún Dato es Inválido!", "Precaución!", JOptionPane.WARNING_MESSAGE);
-
-            jTextField1.setText("");
+                        
+                        JOptionPane.showMessageDialog(null, "Contestada!");
+                    } else
+                        JOptionPane.showMessageDialog(null, "Dispositivo no Encontrado!");
+                    
+                    jTextField1.setText("");
+                    Acciones a= new Acciones ();
+                    a.setVisible(true);
+                    this.dispose();
+                    
+                } else
+                    JOptionPane.showMessageDialog( null, "No hay Cambios Aún!");
+                 
+                }     
         }
+       catch(IOException e){} catch(NumberFormatException e){
+            JOptionPane.showMessageDialog(null, "Algún Dato es Inválido!");
+            
+                    jTextField1.setText("");
+                   
+                   
+     }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
@@ -292,77 +302,87 @@ public static String Fechas="";
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        try {
-            if (jTextField1.getText().equals("")) {
+        try{
+            if( jTextField1.getText().equals(""))
                 JOptionPane.showMessageDialog(null, "Ingrese Numero!", "Error!", JOptionPane.ERROR_MESSAGE);
-            } else {
-                BufferedReader rdfile = new BufferedReader(new FileReader("Externas2.txt"));
+           
+            else{
+                BufferedReader rdfile= new BufferedReader( new FileReader("Externas1.txt"));
 
-                String[] itemline = new String[50];
-                String Pro= "";
-                String Mus="Llamada Rechazada";
-                String Si = null ;
-                String Sis = null;
-                String Tipo="";
+                String[] itemline= new String[50];
+                String temp[];
+                
+                String search= "", Edit="", Pro="", Corr="", Correo="", Contra="", Confi="";
+                search= "";
+                String Tipo="Llamada Rechazada";
                 String fecha="";
-                boolean found = false;
-
-                int x = 0;
-                while ((itemline[x] = rdfile.readLine()) != null) {
-                    
-                    x++;
-                }
-                rdfile.close();
-
-                if (!(x >= 100)) {
-                    Pro = jTextField1.getText();
-
-                    for (int j = 0; itemline[j] != null; j++) {
-                        String[] temp = itemline[j].split("\t");
-
-                        if(Mus.equals(temp[0])&&(Pro.equals(temp[4]))) 
-                            found = true;
-                        
-                        
-                    }
-
-                    if (found) {
-                        JOptionPane.showMessageDialog(null, "El Numero es el Mismo!\nSuggestion: Actualizar Datos?", "", JOptionPane.WARNING_MESSAGE);
-                    } else {
-                        
-                        SimpleDateFormat Fecha = new SimpleDateFormat("EEEE MMMM d hh:mm:ss yyyy");
+                int x=0;  
+                boolean found= false;
+                search=jTextField6.getText();
+                
+               SimpleDateFormat Fecha = new SimpleDateFormat("EEEE MMMM d hh:mm:ss yyyy");
                         fecha=(Fecha.format(new Date()));
                         Fechas=fecha;
-                        itemline[x] = Mus + "\t" + Dispo + "\t" + Numero + "\t" + Dispoo + "\t" + Tell + "\t" + corr +"\t"+ Fechas;
+                if( (!(Dispo.equals(""))) || (!(Numero.equals(""))) || (!(Dispoo.equals("")))|| (!(Tell.equals(""))) || (!(corr.equals("")))){
+                    while(( itemline[x]= rdfile.readLine()) != null){
+                        temp= itemline[x].split("\t");
+                        jTextField6.setText(search);
+                        if( search.equals( temp[6])){
+                            if( Dispo.equals(""))
+                                Dispo= temp[1];
+                            
+                            if(Numero.equals(""))
+                               Numero=temp[2];
+                            
+                            if( Dispoo.equals(""))
+                                Dispoo= temp[3];
 
-                        PrintWriter wrfile = new PrintWriter(new FileWriter("Externas2.txt"));
-
-                        for (int j = 0; itemline[j] != null; j++) {
-
-                            wrfile.println(itemline[j]);
+                            if( Tell.equals(""))
+                                Tell= temp[4];
+                            
+                            if( corr.equals(""))
+                                corr= temp[4];
+                            
+                         
+                            itemline[x]= Tipo+"\t"+Dispo+"\t"+ Numero+"\t"+Dispoo+"\t"+Tell+"\t"+corr+"\t"+Fechas;
+                            found= true;
                         }
+                        x++;
+
+
+                    }
+                    rdfile.close();
+                    
+                    if( found ){
+                        PrintWriter wrfile= new PrintWriter( new FileWriter("Externas1.txt"));
+
+                        for( int j=0; itemline[j] != null; j++)
+                            wrfile.println( itemline[j]);
 
                         wrfile.close();
 
-                        JOptionPane.showMessageDialog(null, "Rechazada!", " Ok ", JOptionPane.INFORMATION_MESSAGE);
-
-                    }
-                } else {
-                    JOptionPane.showMessageDialog(null, "Inventario Lleno!", "Precaución", JOptionPane.WARNING_MESSAGE);
-                }
-            }
-
-            jTextField1.setText("");
-            Acciones a= new Acciones ();
-            a.setVisible(true);
-            this.dispose();
-            
-        } catch (IOException e) {
-        }catch (NumberFormatException e) {
-            JOptionPane.showMessageDialog(null, "Algún Dato es Inválido!", "Precaución!", JOptionPane.WARNING_MESSAGE);
-
-            jTextField1.setText("");
+                        
+                        JOptionPane.showMessageDialog(null, "Rechazada!");
+                    } else
+                        JOptionPane.showMessageDialog(null, "Dispositivo no Encontrado!");
+                    
+                    jTextField1.setText("");
+                    Acciones a= new Acciones ();
+                    a.setVisible(true);
+                    this.dispose();
+                    
+                } else
+                    JOptionPane.showMessageDialog( null, "No hay Cambios Aún!");
+                 
+                }     
         }
+       catch(IOException e){} catch(NumberFormatException e){
+            JOptionPane.showMessageDialog(null, "Algún Dato es Inválido!");
+            
+                    jTextField1.setText("");
+                   
+                   
+     }
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
